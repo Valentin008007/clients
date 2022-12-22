@@ -1,0 +1,510 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    display: block;
+}
+
+.header-container {
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 1440px;
+  height: 666px;
+  left: 0px;
+  top: 0px;
+  z-index: -1px;
+}
+
+.header-img {
+  position: absolute;
+  width: 19.07px;
+  height: 19.55px;
+  left: 110px;
+  top: 50px;
+  color: #499a18;
+}
+
+.header-title {
+  position: absolute;
+  width: 58.13px;
+  height: 17px;
+  left: 138.05px;
+  top: 53.04px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: black;
+}
+
+.header-subtitle {
+  position: absolute;
+  width: 558.87px;
+  height: 101px;
+  left: 772.13px;
+  top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.colortext {
+  color:#499A18 ;
+}
+
+.header-imgs {
+  position: absolute;
+  width: 19.07px;
+  height: 19.55px;
+  left: 115.50px;
+  top: 50px;
+  color: #499A18;
+}
+
+.header-description{
+position: absolute;
+width: 534.89px;
+height: 105px;
+left: 772.13px;
+top: 343px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+color: #636060;
+}
+
+.button-start {
+  box-sizing: border-box;
+  position: absolute;
+  width: 158.65px;
+  height: 44px;
+  left: 772.13px;
+  top: 496px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+}
+
+.nav-links {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 300px;
+  right: 36.39%;
+  top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+
+}
+
+.nav-linkk {
+  position: absolute;
+  height: 50px;
+  left: 450px;
+  right: 28.4%;
+  top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-linka {
+  position: absolute;
+  height: 50px;
+  left: 550px;
+  right: 21.39%;
+  top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-linkd {
+  position: absolute;
+  height: 50px;
+  left: 650px;
+  right: 15.49%;
+  top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-linkt {
+  position: absolute;
+  height: 50px;
+  left: 750px;
+  right: 7.57%;
+  top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.G-img {
+  position: absolute;
+  display: block;
+  margin: auto;
+  height: 200px;
+  left: 100px;
+  top: 200px;
+}
+
+.podval {
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  left: 720px;
+  top: 600px;
+  color: #717171;
+}
+
+.navbar-nav {
+  position: absolute;
+  display: block;
+  margin: auto;
+}
+
+.work-title {
+  position: absolute;
+  width: 900px;
+  font-size: 60px;
+  height: 79px;
+  left: 300px;
+  top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 79px;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #242732;
+}
+
+.input-work {
+  position: absolute;
+  width: 1000px;
+  height: 11px;
+  left: 300px;
+  top: 380px;
+  background: #499a18;
+}
+
+span {
+  color: #499A18;
+}
+
+.teoria {
+  position: absolute;
+    width: 1281px;
+    height: 492px;
+    left: 300px;
+    top: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 191.5%;
+    letter-spacing: 0.03em;
+    color: #4f4f4f;
+}
+
+.teoria-title {
+  position: absolute;
+  width: 1200px;
+  font-size: 30px;
+  height: 40px;
+  left: 460px;
+  top: 460px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0.105em;
+  text-transform: uppercase;
+  color: #242732;
+}
+
+
+video {
+  position: absolute;
+}
+
+.section {
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 1440px;
+  height: 400px;
+  
+}
+
+.item-container {
+  position: absolute;
+  display: block;
+  margin: auto;
+  width: 1440px;
+  height: 1066px;
+  left: 0px;
+
+  color: #ffffff;
+}
+
+.item-title {
+  position: absolute;
+  width: 433px;
+  height: 102px;
+  left: 109px;
+  top: 150px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+
+.item-colar {
+  color: #E06733;
+}
+
+.item-description {
+  position: absolute;
+  width: 605px;
+  height: 208px;
+  left: 109px;
+  top: 292px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+.item-img {
+  position: absolute;
+  width: 464px;
+  height: 479px;
+  left: 867px;
+  top: 402px;
+  
+}
+
+.Prover-href {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 109px;
+  top: 1600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #0000;
+}
+
+a {
+  color: #636060;
+  text-decoration: none;
+}
+
+.itev-text {
+  position: absolute;
+  width: 900px;
+  height: 30px;
+  left: 109px;
+  top: 1500px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #636060;
+}
+
+.Yvebnik {
+  position: absolute;
+  width: 400px;
+  height: 30px;
+  left: 109px;
+  top: 1700px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: #636060;
+}
+
+.podval-two {
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  left: 720px;
+  top: 2000px;
+  color: #717171;
+}
+
+.header-container {
+  display: block;
+  margin: auto;
+}
+
+.img-title {
+  position: absolute;
+  width: 900px;
+  height: 697px;
+  left: 443px;
+  top: 195px;
+  display: block;
+  margin: auto;
+
+}
+
+.input-title {
+  position: absolute;
+  width: 120px;
+  height: 697px;
+  left: 233px;
+  top: 195px;
+  background: #499a18;
+  display: block;
+  margin: auto;
+}
+
+.header-title {
+  position: absolute;
+width: 1162px;
+height: 365px;
+left: 233px;
+font-size: 90px;
+font-weight: 600;
+top: 1026px;
+color: #499a18;
+display: block;
+  margin: auto;
+}
+
+.color-text {
+  color: #636060;
+}
+
+.work-SUBTITLE {
+  position: absolute;
+  width: 1281px;
+  height: 492px;
+  left: 233px;
+  top: 1223px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 33px;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 191.5%;
+  letter-spacing: 0.03em;
+  color: #4f4f4f;
+}
+
+.itew-imgs {
+  position: absolute;
+  width: 464px;
+  height: 479px;
+  left: 200px;
+  top: 500px;
+  display: block;
+  margin: auto;
+}
+
+.itemititlesdes {
+  position: absolute;
+  width: 605px;
+  height: 208px;
+  left: 109px;
+  top: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+.podval-twod {
+  position: absolute;
+  width: 700px;
+  height: 50px;
+  left: 720px;
+  top: 3200px;
+  color: #717171;
+}
+
+.video-text {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  left: 730px;
+  top: 2500px;
+  font-weight: 500;
+  font-size: 30px;
+  color: #717171;
+}
+
+.video {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 550px;
+  top: 2700px;
+}
+
